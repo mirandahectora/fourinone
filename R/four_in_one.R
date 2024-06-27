@@ -62,7 +62,7 @@ four_in_one <- function(model, plotcolor, npplinecolor, yintcolor) {
     ggtitle("Normal Probability Plot") +
     theme_bw()
 
-  vsfits <- x |>
+  vsfits <- model |>
     ggplot(aes(x = .fitted, y = .resid)) +
     geom_hline(yintercept = 0, color = yintcolor) +
     geom_point(color = defaultcolor) +
@@ -71,7 +71,7 @@ four_in_one <- function(model, plotcolor, npplinecolor, yintcolor) {
     ylab("Residual Value") +
     ggtitle("Versus Fits")
 
-  histogram <- ggplot(x, aes(x = model$residuals)) +
+  histogram <- ggplot(model, aes(x = model$residuals)) +
     geom_histogram(fill = defaultcolor, col = I("white")) +
     theme_bw() +
     xlab("Residual Value") +
