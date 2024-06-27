@@ -2,7 +2,7 @@ Package: fourinone
 Title: 4in1
 Version: 0.0.0.9000
 Authors@R: 
-    person("Héctor", "Miranda Plaza", , "hector.miranda@yale.edu", role = c("aut", "cre"),
+    person("Héctor", "Miranda Plaza", "hector.miranda@yale.edu", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
 Description: Four in One Residual Plots.
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
