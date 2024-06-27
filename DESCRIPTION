@@ -1,5 +1,5 @@
 Package: fourinone
-Title: 4in1
+Title: Four-in-One Residual Plots
 Version: 1.0.0.0000
 Authors@R: 
     person("Héctor", "Miranda Plaza", , "hector.miranda@yale.edu", role = c("aut", "cre"))
