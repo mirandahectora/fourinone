@@ -3,7 +3,7 @@ Title: Four-in-One Residual Plots
 Version: 1.0.0.0000
 Authors@R: 
     person("Héctor", "Miranda Plaza", , "hector.miranda@yale.edu", role = c("aut", "cre"))
-Description: This package provides a function to create multiple plots used to analyze a linear 	model's residuals and base assumptions.
+Description: This package provides a function to create multiple plots used to analyze a linear model's residuals and base assumptions.
 License: MIT
 Encoding: UTF-8
 Imports:
