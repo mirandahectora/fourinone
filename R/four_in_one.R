@@ -8,6 +8,8 @@
 #' comparing predicted residuals to their actual value, a residual 
 #' plot comparing predicted residuals to the order in which they 
 #' are observed, and a histogram. 
+#' 
+#' Note: For best functioning, make sure to run [grDevices::dev.off()].
 #'
 #' @param model A given fitted model object, such as, but not limited to,
 #' those generated using [stats::lm()] and [stats::aov()].
