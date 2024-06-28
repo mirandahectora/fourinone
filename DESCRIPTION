@@ -11,4 +11,9 @@ Imports:
         qqplotr,
         dplyr,
         ggpubr
+Depends:
+	ggplot2,
+        qqplotr,
+        dplyr,
+        ggpubr
 RoxygenNote: 7.3.1
