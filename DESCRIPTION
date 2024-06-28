@@ -1,6 +1,6 @@
 Package: fourinone
 Title: Four-in-One Residual Plots
-Version: 1.0.2
+Version: 1.0.3
 Authors@R: 
     person("Héctor", "Miranda Plaza", , "hector.miranda@yale.edu", role = c("aut", "cre"))
 Description: This package provides a function to create multiple plots used to analyze a linear model's residuals and base assumptions.
