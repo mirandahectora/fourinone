@@ -10,7 +10,7 @@
 #' are observed, and a histogram. 
 #'
 #' @param model A given fitted model object, such as, but not limited to,
-#' those generated using lm() and aov().
+#' those generated using [stats::lm()] and [stats::aov()].
 #' @param plotcolor An optional value for the color of points shown on
 #' each plot.
 #' @param nppcolor An optional value for the color of the line shown
